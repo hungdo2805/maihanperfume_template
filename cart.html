@@ -1,0 +1,301 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Beeta - cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png">
+		
+		<!-- all css here -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+         
+        <link rel="stylesheet" href="./assets/css/bundle.css">
+        <link rel="stylesheet" href="./assets/css/plugins.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        
+    </head>
+    <body>
+            <!-- Add your site or application content here -->
+            
+            <!--header area start-->
+            <header class="header_area">
+                <div class="container-fluid p-0">
+                    <!--header top start--> 
+                    <div class="header_top">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="welcome_text">
+                                    <p><strong>Mai Hân Perfume:</strong>Nước hoa đẳng cáp Châu Âu</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="right_info text-right">
+                                    <ul>
+                                        <li class="currency"><a href="#">VND <i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown_currency">
+                                                <li><a href="#"> USD</a></li>
+                                            </ul>     
+                                        </li> 
+                                        <li class="language"><a href="#"> Vietnam  <i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown_language">
+                                                <li><a href="#">English</a></li>
+                                            </ul> 
+                                        </li> 
+                                        <li class="top_links"><a href="#">Tài khoản<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown_links">
+                                                <li><a href="login.html">Đăng nhập</a></li>
+                                            </ul>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                    <!--header top end-->
+                    
+                    <!--header bottom start--> 
+                    <div class="header_bottom sticky-header">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main_menu_inner">
+                                    <div class="main_menu d-none d-lg-block"> 
+                                        <ul>
+                                            <li class="active"><a href="index.html">Trang chủ</a></li>
+                                            <li><a href="about.html">Giới thiệu</a></li>
+                                            <li><a href="shop.html">Cửa hàng</a></li>
+                                            <li><a href="blog.html">Tin tức</a></li>
+                                            <li><a href="contact.html">Liên hệ</a></li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="mobile-menu d-lg-none">
+                                        <nav>  
+                                            <ul>
+                                                <li class="active"><a href="index.html">Trang chủ</a></li>
+                                                <li><a href="about.html">Giới thiệu</a></li>
+                                                <li><a href="shop.html">Cửa hàng</a></li>
+                                                <li><a href="blog.html">Tin tức</a></li>
+                                                <li><a href="contact.html">Liên hệ</a></li>
+                                            </ul>
+                                        </nav>      
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="search_area">
+                                    <form action="#">
+                                        <input placeholder="Tìm kiếm sản phẩm..." type="text">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                    <div class="shopping_cart">
+                                        <a href="#"><i class="fa fa-shopping-bag"></i><span> 2 sản phẩm</span></a>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <!--header bottom end-->   
+                </div>  
+            </header>
+            <!--header area end-->
+            <!--breadcrumbs area start-->
+            <div class="breadcrumb-section cart_bread">
+                <div class="container">   
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb_content">
+                                <ul>
+                                    <li><a href="index.html">Trang chủ</a></li>
+                                    <li class="active">Giỏ hàng</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!--breadcrumbs area end-->
+             <!--shopping cart area start -->
+            <div class="shopping_cart_area">
+                <div class="container">  
+                    <form action="#"> 
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table_desc">
+                                    <div class="cart_page table-responsive">
+                                        <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="product_thumb">Hình ảnh</th>
+                                            <th class="product_name">Sản phẩm</th>
+                                            <th class="product-price">Gía</th>
+                                            <th class="product_quantity">Số lượng</th>
+                                            <th class="product_total">Tổng tiền</th>
+                                            <th class="product_remove">Xóa</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                           
+                                            <td class="product_thumb"><a href="#"><img src="./assets/img/cart/cart17.jpg" alt=""></a></td>
+                                            <td class="product_name"><a href="#">Nước hoa Nữ Dubai Mazaaji EDP 100ml</a></td>
+                                            <td class="product-price">650000</td>
+                                            <td class="product_quantity"><input min="0" max="100" value="1" type="number"></td>
+                                            <td class="product_total">650000</td>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        </tr>
+
+                                        <tr>
+                                           
+                                            <td class="product_thumb"><a href="#"><img src="./assets/img/cart/cart17.jpg" alt=""></a></td>
+                                            <td class="product_name"><a href="#">Nước hoa Nữ Dubai Mazaaji EDP 100ml</a></td>
+                                            <td class="product-price">650000</td>
+                                            <td class="product_quantity"><input min="0" max="100" value="1" type="number"></td>
+                                            <td class="product_total">650000</td>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                           
+                                            <td class="product_thumb"><a href="#"><img src="./assets/img/cart/cart17.jpg" alt=""></a></td>
+                                            <td class="product_name"><a href="#">Nước hoa Nữ Dubai Mazaaji EDP 100ml</a></td>
+                                            <td class="product-price">650000</td>
+                                            <td class="product_quantity"><input min="0" max="100" value="1" type="number"></td>
+                                            <td class="product_total">650000</td>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>   
+                                    </div>  
+                                    <div class="cart_submit">
+                                        <button type="submit">update cart</button>
+                                    </div>      
+                                </div>
+                             </div>
+                         </div>
+                         <!--coupon code area start-->
+                        <div class="coupon_area">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="coupon_code">
+                                        <h3>Coupon</h3>
+                                        <div class="coupon_inner">   
+                                            <p>Enter your coupon code if you have one.</p>                                
+                                            <input placeholder="Coupon code" type="text">
+                                            <button type="submit">Apply coupon</button>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="coupon_code">
+                                        <h3>Cart Totals</h3>
+                                        <div class="coupon_inner">
+                                           <div class="cart_subtotal">
+                                               <p>Subtotal</p>
+                                               <p class="cart_amount">£215.00</p>
+                                           </div>
+                                           <div class="cart_subtotal ">
+                                               <p>Shipping</p>
+                                               <p class="cart_amount"><span>Flat Rate:</span> £255.00</p>
+                                           </div>
+                                           <a href="#">Calculate shipping</a>
+
+                                           <div class="cart_subtotal">
+                                               <p>Total</p>
+                                               <p class="cart_amount">£215.00</p>
+                                           </div>
+                                           <div class="checkout_btn">
+                                               <a href="#">Proceed to Checkout</a>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--coupon code area end-->
+                    </form> 
+                </div>     
+            </div>
+             <!--shopping cart area end -->
+
+
+            <!--footer area start-->
+            <div class="footer_area">
+                <div class="container">
+                    <div class="footer_top">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single_footer">
+                                    <h3>Mai Hân Perfume</h3>
+                                    <p>Cập nhật những mẫu nước hoa và tinh dầu Dubai xách tay đang khuyến mãi!</p>
+                                    <div class="footer_social">
+                                        <h3>Theo dõi</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single_footer">
+                                    <h3>Truy cập nhanh</h3>
+                                    <ul>
+                                        <li class="active"><a href="index.html">Trang chủ</a></li>
+                                        <li><a href="about.html">Giới thiệu</a></li>
+                                        <li><a href="shop.html">Cửa hàng</a></li>
+                                        <li><a href="blog.html">Tin tức</a></li>
+                                        <li><a href="contact.html">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single_footer column_3">
+                                    <h3>Liên hệ</h3>
+                                    <ul>
+                                        <li><i class="fa fa-home"></i> Mai Hân Shop đường Z115.</li>
+                                        <li><i class="fa fa-phone"></i> (+84) 123 456 789</li>
+                                        <li><i class="fa fa-fax"></i> 123 456 789</li>
+                                        <li><i class="fa fa-envelope-open-o"></i> <a href="#">maihanperfume@contact.com</a></li>
+                                    </ul>
+                                    <div class="footer-payment">
+                                        <a href="#"><img src="./assets/img/visha/payment.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright_area">
+                        <div class="row">
+                            <div class="col--12">
+                                <div class="copyright_conent text-center">
+                                    <p>&copy; Copyright 2022 Made With <i class="fa fa-heart"></i> by <a href="#" target="_blank" rel="noopener">MaiHan</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer area end-->
+
+            
+		
+		<!-- all js here -->
+        <script src="./assets/js/vendor/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/vendor/modernizr-3.7.1.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
